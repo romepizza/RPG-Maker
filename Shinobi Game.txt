@@ -1,0 +1,299 @@
+Naruto Counterattack Shinobigame
+
+-- Background Story --
+
+-several years after Narutos death
+-the world is not at peace, but the nations are
+-one ruler, to rule them all, the Sekaikage
+-high target of assasination attempts
+-> find the best Shinobi to guard the sekaikage
+-Finish the game by archieving the position of the bodyguard of the Sekaikage
+-be the best Shinobi ingame!
+-the AI is going to be hard and the game is going to be unfair!
+
+
+-- Basics --
+
+-each charakter makes counterattacks and counter-counterattacks
+	-> applies the feeling of "battling"
+
+-Arena System
+	-> big town with an arena
+	-> winning increases arena rating (or whatever), losing decreases it
+	-> arena rating enables new stuff
+
+-enemies have levels aswell
+
+-reputation system
+	-> your maincharacter has reputation
+	-> gained by winning tournaments and other things
+
+-team up with other shinobi
+	-> reputation is needed, in order to make the other shinobi join your squad
+
+-battles can accur in different setups
+	-> 1v1
+	-> 2v2
+	-> 3v3 etc
+	-> but also 1v2, 1v3, 2v3, 2v4 etc
+
+-different weapontypes have different counterattacks
+	-> "active" and "reactive/counterbased" weapons
+	-> active weapons have higher effect when attacking enemies
+	-> reactive weapons have higher effect when countering attacks
+
+-changing your weapon infight is an essential need to win
+	-> changeing weapons infight may trigger certain deductions
+
+-minor questsystem
+	-> helping people doing their shit may grant stuff or reputation
+
+
+-- Character System --
+
+-each character has a membership, enabling basic abilities and traits
+	-> ... such as Uchia:	--> given basic fire jutsus
+				--> higher affinity to fire jutsus
+				--> maybe harder to gain reputation
+
+
+-- Skill System --
+
+-each character has a few basic abilities, depending on their membership
+	-> learn new "basic/membership" skills while leveling up
+
+-upgrading skills
+	-> upgrade basic skills
+	-> upgrade schools of skills
+		--> e.g. not just fireball, but all the fire jutsus
+
+-learn new skills by winning/finding jutsu scrolls (like narutos kage no bushin jutsu)
+	-> crappy ones can be found/obtained by finding/doing quests
+	-> good ones are available by gaining high arena rating (they still cost currency)
+	-> tournaments grant scrolls aswell
+
+-improve your weapon skill
+	-> simple weapon affinity system
+		--> higher effects on katana/shuriken etc
+	-> high need to train more than just one weapontype
+		--> fighting with different weapons is essential
+	-> good weapons require high weapon skill
+
+-counter system is the main feature of this game
+	-> being attacked and attacking results counterattacks
+		--> attack -> counterattack -> counter-counterattack -> counter-counter-counterattack
+		--> have a variable amount of counterattacks each turn
+		--> Fight Simulation:
+			---> Shinobi A has (5) counterattacks per turn, Shinobi B only (2):
+			---> A(5) attacks B(2)
+			---> B(2) counterattacks [B(2) -> B(1)]
+			---> A(5) counterattacks [A(5) -> A(4)]
+			---> B(1) counterattacks [B(1) -> B(0)]
+			---> A(4) counterattacks [A(4) -> A(3)]
+			---> B cannot counterattack, thus the battleing sequence is over
+			---> A STILL can counterattack a Shinobi C, until he has no counterattacks left
+	-> distinguish physical attacks and magical attacks
+		--> a magical attack results a magical counterattack
+	-> counter "attacks" can be defensive aswell
+		--> such as gaining a shield after being magical attacked, because the counterattacker cant use offensive magic at all
+	-> distinguish magical attack types
+		--> a magical windattack might be countered by a different counterattack than a magical fireattack
+
+
+-- Weapon System --
+
+-different weapon types have different attacks and counterattacks
+	-> a kunai for example might have low damage, but a high amount of counterattacks
+	-> a katana has high damage, but a low amount of counterattacks
+		--> kunai is good for 1v2, katana is good for 1v1
+		--> beginning with a kunai in a 1v2 and switching to a katana when your first enemy is defeated is a good choice
+
+-different weapontypes also grant "basic" weapon skills
+	-> by leveling your weapontype skill you will learn more weapon skills
+
+-weapons can be coated with chakra, nature chakra or explosive tags once each turn
+
+-- Reputation System --
+
+-mainly determined by your Shinobi Level
+	-> Kage > Jonin > Chounin > Genin
+-accomplish your exam succesfully to get into a higher "tier"
+-you can only compete exams when you have reached certain requirements
+	-> Reputation, Level, total weapon type levels etc
+-exams are executed in big areals
+	-> get to the end of the areal to succede the exam
+	-> get bonus points by defeating other studets at the end of the exam
+
+
+-- Misc Ideas --
+
+-wind is effective against barriers
+-counterattack states are instant casts
+-counterattack states can be removed
+-classic turn based fighting system
+-special improvements can be made before attacking aswell, also instant
+	-> enchant your next attack with wind or lifesteal, attack bombs to shuriken
+	-> executed by items, which have to be bought of found
+-Genjutsus can be cancled by almost anyone
+	-> the better the genjutsu caster, the harder it is to remove
+
+
+-- Scripts --
+
+-
+
+-- Specific Words --
+
+-Elements:	-> Fire: 	Katon
+		-> Water: 	Suiton
+		-> Earth:	Doton
+		-> Futon:	Wind
+		-> Raiton:	Lightning
+
+-Hitai Ate: Stirnband
+	-> recieved when reaching rank of Genin
+
+
+
+
+--- Jutsus ---
+-- Katon, Fire --
+
+
+-- Suiton, Water --
+
+
+-- Doton, Earth --
+
+
+-- Futon, Wind --
+
+
+-- Raiton, Lightning --
+
+
+
+-- Kekkei Genkais --
+
+-Byakugan: Hyuga-clan
+-Rin'negan
+-Rin'ne Sharingan
+-Sharingan: Uchia-clan
+-Mangekyou Sharingan: Uchia-clan
+-Bakuton (explosion): Deidara
+	-> Deidara
+-Enton (blaze): makes use of Amaterasu
+	-> only castable with Mangekyou Sharingan
+	-> Sasuke
+-Futton (fog): Fire & Water
+	-> Mei Terumii (Mizukage)
+-Hyouton (ice): Water & Wind
+	-> Haku
+-Jiton (magnetism): ??
+	-> Kazekages
+-Jinton (Speed): ??
+	-> Hiruko
+-Kuton (steel): ??
+	-> Hiruko
+-Meiton (darkenss): ??
+	-> Hiruko
+-Mokuton (wood): earth & water
+	-> Harashima, Yamato
+-Ranton (storm): water & Lightning
+	-> Madara
+-Sakuton (heat): fire & wind
+	-> Pakura
+-Shouton (crystal): ??
+	-> Guren
+-Youton (lava): fire & earth
+	-> Mei Terumii (Mizukage)
+
+-- Kekkei Toutas --
+
+
+-- Jutsu Types --
+
+-Keitaihenka (Metamorphose):
+	-> improves the power of Nin-Jutsu
+	-> changes the form of the chakra infused to the jutsu
+-Seishitsuhenka (change of nature)
+	-> changes the nature of the chakra infused to the jutsu
+
+-Sen-Jutsu: (Naturearts)
+	-> gathers the chakra of nature to combine it with your own chakra
+	-> greatly improves Nin- and Tai-Jutsus
+		--> not all jutstus can be changed by nature
+	-> feeling chakra in nature has to be learned, at the Myouboku-mountain, the dragoncave or the wet bones-forest
+	-> gathering chakra from nature takes its time
+	-> Fish-oil of the Myouboku-mountain speeds the progress of gathering up
+
+-Kekkei Genkai: (inherited Ability)
+	-> jutsus, that cannot be learned or copied
+	-> only available, if inherited
+	-> still can be implanted
+
+-Kin-Jutsu: (forbidden Jutsu)
+	-> Jutsus, that are to mighty or dangerous to be learned
+-Kuchiyose no Jutsu (summoning jutsu)
+	-> Summons familiars
+-Fuuin-Jutsu (sealing jutsu)
+	-> controll uncontrolled chakra
+-Gen-Jutsu (illusion jutsu)
+	-> creates an illusional world
+	-> can make the victim feel real pain
+-Kekkai-Jutsu (barrier jutsu)
+	-> can be combined with nature easily
+-Ken-Jutsu (sword jutsu)
+	-> techniques with swords
+	-> can be improved with tai and nin jutsu
+-Tai-Jutsu (body jutsu)
+	-> doesnt need much chakra
+	-> can be distinguished in different tai jutsus
+		--> Guken ("hard fist"): attacks outer body
+		--> Juuken ("soft fist"): attaccks inner body
+		--> Kawazu Kumite: toad style
+		--> Rakanaken: simple but powerful attacks, attacks with flat hand/feet
+		--> Suiken: drunken fist
+		--> Muon no Ken: silent fist
+-Buki-Jutsu (Weapon jutsu)
+	-> Shurkien-Jutsu (throwing shurken or kunais)
+	-> Kayaku-Jutsu (Explosive Jutsu)
+	-> Bo-Jutsu (Staff Jutsu)
+	-> Tessen-jutsu (Fan Jutsu)
+	-> Kusarigama-Jutsu (Iron Sickle Jutsu)
+	-> Kyu-Jutsu (Bow Jutsu)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
